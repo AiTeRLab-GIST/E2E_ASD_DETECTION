@@ -14,7 +14,7 @@ db_type = 'db_type'
 
 save_path = 'save_path'
 wav_path = f'{save_path}/{db_type}'
-df_names = [f'train_{db_type}.csv', f'eval_{db_type}.csv', f'infer_{db_type}.csv']
+df_names = ['data/train.csv', 'data/eval.csv', 'data/infer.csv']
 
 model_name = 'facebook/wav2vec2-base-960h'
 fix_feat_ext = False 
