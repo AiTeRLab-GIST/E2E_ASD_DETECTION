@@ -1,6 +1,6 @@
 # E2E_ASD_DETECTION
 
-ASD Detection based on wav2vec2.0 and BLSTM classifier
+ASD Detection based on feature extractors(Auto-encoder or wav2vec2.0) and BLSTM classifier
 
 # Information
 An end-to-end model training and evaluation scripts based on wav2vec2.0 model and BLSTM classifier. Extract vocal characteristics with wav2vec2.0 from children's voice segments and classify it with BLSTM classifier as ASD/TD. <br />
